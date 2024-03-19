@@ -2,9 +2,8 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
-import Layout from './components/layout';
-import Questions from './components/questions';
-
+import Layout from './layout';
+import Questions from './components/Questions';
 function App() {
   return (
     <div className="App">
@@ -12,7 +11,7 @@ function App() {
         <Routes>
           <Route element={<Layout />}>
             <Route path="" element={<Home />} />
-            <Route path="/test" element={<Questions />} />
+            <Route path="/quiz" element={<Questions />} />
           </Route>
         </Routes>
       </BrowserRouter>

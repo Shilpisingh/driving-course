@@ -6,8 +6,7 @@ import { Link as RouterLink } from 'react-router-dom';
 
 const pages = [
   { title: 'G1 Course', link: '/'},
-  { title: 'Test', link: '/test'},
-  { title: 'Cotact', link: '/test'}
+  { title: 'G1 Test', link: '/quiz'},
 ];
 
 function ResponsiveAppBar() {
